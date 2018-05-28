@@ -1,0 +1,16 @@
+local function declareClass(super, n)
+    return {
+        super = super,
+        name = n,
+        functs = {}
+    }
+end
+
+local function addFunct()
+
+local classes = {
+    Object = {},
+    Number = {},
+    Table = {},
+    Function = {}
+}
